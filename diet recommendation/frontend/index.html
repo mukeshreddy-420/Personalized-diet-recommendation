@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Personalized Diet Recommendation System</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1> Personalized Diet Recommendation System</h1>
+<p class="subtitle">  </p>
+
+<div class="card">
+
+<h2>User Information</h2>
+
+<div class="form-grid">
+
+<input id="name" placeholder="Name">
+
+<input id="age" placeholder="Age">
+
+<select id="gender">
+<option>Male</option>
+<option>Female</option>
+</select>
+
+<input id="height" placeholder="Height (cm)">
+
+<input id="weight" placeholder="Weight (kg)">
+
+<select id="diet">
+<option>Veg</option>
+<option>Non-Veg</option>
+<option>Both</option>
+</select>
+
+<select id="goal">
+<option>Weight Loss</option>
+<option>Weight Gain</option>
+<option>Maintain</option>
+</select>
+
+</div>
+
+<button onclick="generate()">Generate Diet Plan</button>
+
+</div>
+
+<div id="result"></div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
